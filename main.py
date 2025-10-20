@@ -28,7 +28,7 @@ from database import SessionLocal, engine
 SECRET_KEY = "Abbas_elaf"       # Secret for encoding JWT tokens
 ALGORITHM = "HS256"             # JWT signing algorithm
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
-BASE_URL = "https://abbas-elaf2-3.onrender.com"  # public Render URL
+BASE_URL = "https://abbas-elaf2-4.onrender.com"  # public Render URL
 
 pwd_context = CryptContext(schemes=["pbkdf2_sha256"], deprecated="auto")
 
